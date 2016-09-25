@@ -19,6 +19,12 @@
         var resta = parseInt(num1) - parseInt(num2);
         alert("La resta es: "+ resta);
     }
+    function multiplicar() {
+        var num1 = document.getElementById("num1").value;
+        var num2 = document.getElementById("num2").value;
+        var multi = parseInt(num1) * parseInt(num2);
+        alert("La multiplicacion es: "+ multi);
+    }
 </script>
 <html>
     <head>
@@ -31,5 +37,6 @@
         Numero 2:<input type="text" value="" id="num2"><br></br>
         <input type="button" value="Suma" onclick="javascript:suma();">
         <input type="button" value="Resta" onclick="javascript:restar();"><br></br>
+        <input type="button" value="Resta" onclick="javascript:multiplicar();"><br></br>
     </body>
 </html>
