@@ -13,6 +13,12 @@
         var suma = parseInt(num1) + parseInt(num2);
         alert("La suma es: "+ suma);
     }
+    function restar() {
+        var num1 = document.getElementById("num1").value;
+        var num2 = document.getElementById("num2").value;
+        var resta = parseInt(num1) - parseInt(num2);
+        alert("La resta es: "+ resta);
+    }
 </script>
 <html>
     <head>
@@ -24,6 +30,6 @@
         Numero 1:<input type="text" value="" id="num1"><br></br>
         Numero 2:<input type="text" value="" id="num2"><br></br>
         <input type="button" value="Suma" onclick="javascript:suma();">
-        <input type="button" value="Resta"><br></br>
+        <input type="button" value="Resta" onclick="javascript:restar();"><br></br>
     </body>
 </html>
