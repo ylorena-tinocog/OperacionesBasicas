@@ -8,8 +8,13 @@
 <!DOCTYPE html>
 <script type="text/javascript">
     function operacion(tipo){
-        
-        
+        var num1 = document.getElementById("num1").value;
+        var num2 = document.getElementById("num2").value;
+        var resultado;
+        if(tipo === 1){
+            resultado = parseInt(num1) + parseInt(num2);
+        }
+        alert(resultado);
     }
 </script>
 <html>
