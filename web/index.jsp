@@ -17,6 +17,9 @@
         if(tipo === 2){
             resultado = parseInt(num1) - parseInt(num2);
         }
+        if(tipo === 3){
+            resultado = parseInt(num1) * parseInt(num2);
+        }
         alert(resultado);
     }
 </script>
